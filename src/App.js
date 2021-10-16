@@ -9,10 +9,10 @@ import Post from "./pages/Post";
 const Routing = () => {
   return(
     <Switch>
-      <Route exact path="/Home" component={Home}/>
-      <Route exact path="/Users" component={Users}/>
-      <Route exact path="/Post" component={Post}/>
-      <Route exact path="/Login" component={Login}/>
+      <Route exact path="/home" component={Home}/>
+      <Route exact path="/users" component={Users}/>
+      <Route exact path="/post" component={Post}/>
+      <Route exact path="/login" component={Login}/>
     </Switch>
     )
 }
